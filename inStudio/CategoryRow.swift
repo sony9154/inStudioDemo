@@ -12,7 +12,7 @@ class CategoryRow: UITableViewCell {
     
     var categoryName:String? = nil
     var showDetailDelegate:ShowDetailDelegate? = nil
-    
+    var imageDatas: [Data] = []
     @IBOutlet weak var collectionView: UICollectionView!
 
 }
@@ -25,6 +25,11 @@ extension CategoryRow : UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "videoCell", for: indexPath) as! VideoCell
+        if imageDatas.count > indexPath.row {
+            let imageView = cell.viewWithTag(1) as! UIImageView
+            imageView.image = UIImage(data: imageDatas[indexPath.row])
+        }
+
         cell.categoryName = categoryName
         return cell
     }
