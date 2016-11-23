@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5DA682D41DE5DE0D00227669 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682CB1DE5DE0D00227669 /* 1.JPG */; };
-		5DA682D51DE5DE0D00227669 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682CC1DE5DE0D00227669 /* 2.JPG */; };
-		5DA682D61DE5DE0D00227669 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682CD1DE5DE0D00227669 /* 3.JPG */; };
 		5DA682D71DE5DE0D00227669 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682CE1DE5DE0D00227669 /* 4.JPG */; };
 		5DA682D81DE5DE0D00227669 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682CF1DE5DE0D00227669 /* 5.JPG */; };
 		5DA682D91DE5DE0D00227669 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682D01DE5DE0D00227669 /* 6.JPG */; };
 		5DA682DA1DE5DE0D00227669 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682D11DE5DE0D00227669 /* 7.JPG */; };
 		5DA682DB1DE5DE0D00227669 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682D21DE5DE0D00227669 /* 8.JPG */; };
 		5DA682DC1DE5DE0D00227669 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682D31DE5DE0D00227669 /* 9.JPG */; };
+		5DA682DE1DE5FDDD00227669 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682DD1DE5FDDD00227669 /* 2.JPG */; };
+		5DA682E01DE602E500227669 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5DA682DF1DE602E500227669 /* 3.JPG */; };
 		AB2273A91DE5A2EB00B83EBE /* BannerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2273A81DE5A2EB00B83EBE /* BannerContent.swift */; };
 		AB8B725F1DE454C6008CE871 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B725E1DE454C6008CE871 /* DetailPage.swift */; };
 		AB8B72631DE49441008CE871 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B72621DE49441008CE871 /* VideoCell.swift */; };
@@ -29,14 +29,14 @@
 
 /* Begin PBXFileReference section */
 		5DA682CB1DE5DE0D00227669 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
-		5DA682CC1DE5DE0D00227669 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
-		5DA682CD1DE5DE0D00227669 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
 		5DA682CE1DE5DE0D00227669 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
 		5DA682CF1DE5DE0D00227669 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
 		5DA682D01DE5DE0D00227669 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
 		5DA682D11DE5DE0D00227669 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
 		5DA682D21DE5DE0D00227669 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
 		5DA682D31DE5DE0D00227669 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		5DA682DD1DE5FDDD00227669 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		5DA682DF1DE602E500227669 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
 		AB2273A81DE5A2EB00B83EBE /* BannerContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerContent.swift; sourceTree = "<group>"; };
 		AB8B725E1DE454C6008CE871 /* DetailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
 		AB8B72621DE49441008CE871 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				5DA682CB1DE5DE0D00227669 /* 1.JPG */,
-				5DA682CC1DE5DE0D00227669 /* 2.JPG */,
-				5DA682CD1DE5DE0D00227669 /* 3.JPG */,
+				5DA682DD1DE5FDDD00227669 /* 2.JPG */,
+				5DA682DF1DE602E500227669 /* 3.JPG */,
 				5DA682CE1DE5DE0D00227669 /* 4.JPG */,
 				5DA682CF1DE5DE0D00227669 /* 5.JPG */,
 				5DA682D01DE5DE0D00227669 /* 6.JPG */,
@@ -171,12 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA682DB1DE5DE0D00227669 /* 8.JPG in Resources */,
-				5DA682D51DE5DE0D00227669 /* 2.JPG in Resources */,
 				5DA682D81DE5DE0D00227669 /* 5.JPG in Resources */,
 				AB9495AF1DE2E93800871B7C /* LaunchScreen.storyboard in Resources */,
+				5DA682E01DE602E500227669 /* 3.JPG in Resources */,
 				5DA682D41DE5DE0D00227669 /* 1.JPG in Resources */,
-				5DA682D61DE5DE0D00227669 /* 3.JPG in Resources */,
 				5DA682DA1DE5DE0D00227669 /* 7.JPG in Resources */,
+				5DA682DE1DE5FDDD00227669 /* 2.JPG in Resources */,
 				5DA682D71DE5DE0D00227669 /* 4.JPG in Resources */,
 				5DA682D91DE5DE0D00227669 /* 6.JPG in Resources */,
 				5DA682DC1DE5DE0D00227669 /* 9.JPG in Resources */,

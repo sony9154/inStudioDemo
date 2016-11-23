@@ -57,6 +57,9 @@ extension ViewController : UITableViewDataSource {
         if indexPath.section == 0  {
             cell.imageDatas = imageDatas
         }
+        if indexPath.section == 1  {
+            cell.imageDatas = imageDatas
+        }
         cell.showDetailDelegate = self
         return cell
     }
