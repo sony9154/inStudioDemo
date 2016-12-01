@@ -19,6 +19,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
+        
+        navigationController?.navigationBar.barTintColor = UIColor.green
+        tabBarController?.tabBar.barTintColor = UIColor.brown
+        
         for index in 1...15 {
             let imageDataUrl = Bundle.main.url(forResource: String(index), withExtension: "jpg")
             let imageData = try! Data(contentsOf: imageDataUrl!)
@@ -32,6 +36,7 @@ class ViewController: UIViewController {
             detailPage.displayString = displayString
         }
     }
+    
 }
 
 extension ViewController : UITableViewDelegate { }
@@ -54,6 +59,7 @@ extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CategoryRow
         cell.categoryName = categories[indexPath.section]
+        
         if indexPath.section == 0  {
             cell.imageDatas = imageDatas
         }
@@ -71,6 +77,21 @@ extension ViewController : UITableViewDataSource {
         }
         cell.showDetailDelegate = self
         return cell
+    }
+    
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        let header = view as! UITableViewHeaderFooterView
+        header.textLabel?.textColor = UIColor.white
+        header.backgroundView?.backgroundColor = UIColorFromRGB(rgbValue: 0x222833)
     }
     
 }

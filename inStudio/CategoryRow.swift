@@ -41,25 +41,26 @@ extension CategoryRow : UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let itemsPerRow:CGFloat = 2
-        let hardCodedPadding:CGFloat = 5
+        let hardCodedPadding:CGFloat = 3
         let itemWidth = (collectionView.bounds.width / itemsPerRow) - hardCodedPadding
         let itemHeight = collectionView.bounds.height - (2 * hardCodedPadding)
         return CGSize(width: itemWidth, height: itemHeight)
     }
 }
-
+/*
 extension CategoryRow : UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let selectedCell = collectionView.cellForItem(at: indexPath) as? VideoCell {
-            let displayText = "selected cell number: \(indexPath.row) from category: \(selectedCell.categoryName)"
+            //let displayText = "selected cell number: \(indexPath.row) from category: \(selectedCell.categoryName)"
+            let displayText = ""
             showDetailDelegate?.showDetail(displayText)
             //            print("selected cell from category: \(selectedCell.categoryName)")
         }
     }
     
 }
-
+*/
 
 
 
